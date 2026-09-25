@@ -86,7 +86,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 <span className="h-px w-10 bg-emerald-500/60" />
               </div>
               
-              {/* Primary Name Display: میر صڵاح with clearance so it never overlaps the tag above */}
+              {/* Primary Name Display: میر صلاح with clearance so it never overlaps the tag above */}
               <h1 className="text-5xl sm:text-6xl xl:text-7xl font-extrabold tracking-tight text-white font-display pt-2 pb-1 leading-[1.3] sm:leading-[1.25] drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)]">
                 {isKurdish ? profile.nameKu : `${profile.name} (${profile.nameKu})`}
               </h1>
@@ -171,7 +171,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               </div>
 
               {/* Grid of Languages Known */}
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
                 {languages.map((lang, idx) => {
                   const isSelected = activeIndex === idx;
                   return (
@@ -266,7 +266,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             href="#projects"
             className="flex items-center gap-2 text-xs font-mono-code text-zinc-400 hover:text-emerald-400 transition-colors group cursor-pointer"
           >
-            <span>{isKurdish ? 'سەردانی پڕۆژەکانی میر صڵاح بکە' : 'EXPLORE MEER SALAH PROJECTS'}</span>
+            <span>{isKurdish ? 'سەردانی پڕۆژەکانی میر صلاح بکە' : 'EXPLORE MEER SALAH PROJECTS'}</span>
             <ArrowDown className="w-3.5 h-3.5 group-hover:translate-y-1 transition-transform text-emerald-400" />
           </a>
         </div>

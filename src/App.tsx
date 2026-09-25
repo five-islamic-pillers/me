@@ -64,7 +64,7 @@ export default function App() {
 
       {/* Main Content Area */}
       <main className="flex-1">
-        {/* Hero Section: Matrix green digital rain background with Meer's name (میر صڵاح) and languages known (HTML 1.5y, CSS 1.5y, JS 1.5y, Python 5m) */}
+        {/* Hero Section: Matrix green digital rain background with Meer's name (میر صلاح) and languages known (HTML 1.5y, CSS 1.5y, JS 1.5y, Python 5m) */}
         <HeroSection
           profile={MEER_PROFILE}
           languages={MEER_LANGUAGES}

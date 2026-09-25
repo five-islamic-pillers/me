@@ -2,7 +2,7 @@ import { LanguageSkill, Project, UserProfile } from '../types/portfolio';
 
 export const MEER_PROFILE: UserProfile = {
   name: 'Meer Salah',
-  nameKu: 'میر صڵاح',
+  nameKu: 'میر صلاح',
   role: 'Web Developer & Programmer',
   roleKu: 'گەشەپێدەری وێب و پرۆگرامەر',
   tagline: 'Passionate developer creating interactive web experiences, educational tools, and Kurdish technology projects.',
@@ -54,18 +54,6 @@ export const MEER_LANGUAGES: LanguageSkill[] = [
     description: 'Interactive DOM manipulation, game physics, API fetching, asynchronous programming, and event handling.',
     descriptionKu: 'دەستکاریکردنی داینامیکی لاپەڕە (DOM)، لۆژیکی یارییەکان، بانگهێشتکردنی API و بەڕێوەبردنی ڕووداوەکان.',
     snippet: 'const calculateScore = (points) => {\n  return points * 10;\n};',
-  },
-  {
-    name: 'TypeScript',
-    nameKu: 'TypeScript',
-    level: 'Proficient',
-    levelKu: 'لێهاتوو',
-    experienceDisplay: '1 Year Experience',
-    experienceDisplayKu: '١ ساڵ ئەزموون',
-    category: 'core',
-    description: 'Type-safe programming for interactive web applications, browser games, and structured scalable code.',
-    descriptionKu: 'پرۆگرامسازی پارێزراو بۆ یارییە وێبییەکان و کۆدی مۆدێرنی کارلێککار.',
-    snippet: 'interface Project {\n  title: string;\n  completed: boolean;\n}',
   },
   {
     name: 'Python',
@@ -310,7 +298,7 @@ export const TRANSLATIONS = {
       openTikTok: 'تیکتۆکەکی من | my tiktok profile',
     },
     footer: {
-      rights: 'هەموو مافەکان پارێزراون بۆ میر صڵاح.',
+      rights: 'هەموو مافەکان پارێزراون بۆ میر صلاح.',
       builtWith: 'دروستکراوە بە HTML، CSS، JavaScript لەگەڵ بارانی سەوزی ماتریکس.',
       backToTop: 'بۆ سەرەوە',
     },

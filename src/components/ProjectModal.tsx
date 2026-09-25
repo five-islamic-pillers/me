@@ -129,7 +129,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose, cu
         {/* Modal Footer */}
         <div className="flex items-center justify-between px-6 py-4 border-t border-emerald-950/80 bg-[#070c09]">
           <span className="text-xs text-zinc-500 font-mono-code">
-            {isKurdish ? 'دروستکراوە لەلایەن میر صڵاح' : 'Created by Meer Salah'}
+            {isKurdish ? 'دروستکراوە لەلایەن میر صلاح' : 'Created by Meer Salah'}
           </span>
 
           <div className="flex items-center gap-3">
